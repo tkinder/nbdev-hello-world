@@ -2,7 +2,8 @@
 
 d = { 'settings': { 'branch': 'master',
                 'doc_baseurl': '/nbdev-hello-world',
-                'doc_host': 'https://fastai.github.io',
-                'git_url': 'https://github.com/fastai/nbdev-hello-world',
+                'doc_host': 'https://tkinder.github.io',
+                'git_url': 'https://github.com/tkinder/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': { 'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py'),
+                                        'nbdev_hello_world.core.say_hello': ('core.html#say_hello', 'nbdev_hello_world/core.py')}}}
